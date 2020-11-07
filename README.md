@@ -1,7 +1,7 @@
 # DARKNET2020-GBM
 This is my Information System Analysis and Audit Project. I will be performing Network Intrusion Detection on Darknet 2020 dataset using Gradient Boosting Classifier
 
-	About the Dataset:
+About the Dataset:
 In CICDarknet2020 dataset, a two-layered approach is used to generate benign and darknet traffic at the first layer. The darknet traffic constitutes Audio-Stream, Browsing, Chat, Email, P2P, Transfer, Video-Stream and VOIP which is generated at the second layer. To generate the representative dataset, previously generated datasets, namely, ISCXTor2016 and ISCXVPN2016, have been amalgamated and respective VPN and Tor traffic are combined in corresponding Darknet categories.
 
 No. of rows: 1.4 Lacs approx..
@@ -32,7 +32,7 @@ For multi-class classification:
 The complete dataset is used in this case. Rest of the procedure remains same as the binary classification.
 
 
-5.Model Training and Testing Phase:
+5. Model Training and Testing Phase:
 In this phase:
 •	First the dataset is split into training and testing dataset.
 •	Then we will be defining two classifiers: Gradient Boosting Machine and AdaBoost.
